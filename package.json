@@ -1,0 +1,27 @@
+{
+  "name": "@datkt/uint64be",
+  "version": "0.0.1",
+  "description": "Encode and decode big endian unsigned 64-bit integers from and to ByteArrays",
+  "main": "index.kt",
+  "scripts": {
+    "install": "konanc index.kt -o uint64be -p library",
+    "test": "konanc -r node_modules/@datkt -l tape/tape -e datkt.uint64be.test.main index.kt test.kt -o test.kexe && ./test.kexe"
+  },
+  "keywords": [
+    "datkt",
+    "uint64",
+    "unsigned",
+    "integer",
+    "64",
+    "bit",
+    "codec",
+    "encode",
+    "decode",
+    "kotlin"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@datkt/tape": "^0.4.0"
+  }
+}
