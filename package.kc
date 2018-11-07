@@ -1,0 +1,2 @@
+library = "uint64be"
+repo = "@datkt/uint64be"
