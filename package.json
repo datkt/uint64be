@@ -1,6 +1,6 @@
 {
   "name": "@datkt/uint64be",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Encode and decode big endian unsigned 64-bit integers from and to ByteArrays",
   "main": "index.kt",
   "scripts": {
