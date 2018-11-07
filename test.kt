@@ -1,5 +1,3 @@
-package datkt.uint64be.test
-
 import datkt.uint64be.encodingLength
 import datkt.uint64be.UINT_32_MAX
 import datkt.uint64be.encode
@@ -9,7 +7,6 @@ import datkt.tape.collect
 import datkt.tape.Test
 import datkt.tape.test
 
-import kotlin.math.floor
 import kotlin.math.pow
 
 val MAX_SAFE_INT = ((2.0).pow(53) - 1.0).toLong()
